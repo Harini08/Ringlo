@@ -100,15 +100,61 @@
             </div>
         </div>
 
-        <footer>
+        
+        <footer id="footer">
             <div class="container">
-                <div class="footer-column-1"></div>
-                <div class="footer-column-2"></div>
-                <div class="footer-column-contact"></div>
-                <div class="footer-column-social-items"></div>
-            </div>
-          <p>About us</p>
+                <div class="row">
+
+
+                    <div class="col-sm-3 footer-column-1">
+                      <ul class="footer-items footer-items-1">
+                        <li><a href="/setup">About Us</a></li>
+                          <li><a href="/setup">Ringlo Setup</a></li>
+                          <li><a href="/faq">Help / FAQ</a></li>
+                          <li><a href="/privacy-policy">Privacy Policy</a></li>
+                      </ul>
+                    </div>
+
+                    <div class="col-sm-3 app-download">
+                        <ul class="footer-items footer-items-dls">
+                            <li><a href=""><span class="footer-xs-sprite footer-xs-sprite-ios">Download on iOS</span></a></li>
+                            <li><a href=""><span class="footer-xs-sprite footer-xs-sprite-android">Download on Android</span></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-sm-3 footer-items footer-column-contact footer-right">
+                    <div class="newsletter-info">
+                        <span class="newsletter-info-main">Sharing is caring!</span>
+                        <span class="newsletter-info-msg"></span>
+                    </div>
+                    <form class="newsletter-signup form-inline" action="/app/newsletter-signup" method="POST">
+                        <input type="hidden" name="redir" value="/">
+                        
+                        <div class="form-group newsletter-input">
+                            <label for="id_email_signup" class="sr-only">enter your email</label>
+                            <input type="text" class="form-control" id="id_email_signup" name="email" placeholder="Enter your email">
+                        </div><button type="submit" class="btn btn-coral newsletter-btn"><span class="rly-icon rly-plane">Submit</span></button> <!--change to bootstrap button-->
+                    </form>
+                    </div>
+
+            
+                      <!-- SOCIAL ICONS -->
+                        <div class="col-sm-3 footer-social-icons">
+                            <span>Follow us:</span>
+                            <a href=""><i class="fa fa-facebook"></i>facebook</a>
+                            <a href=""><i class="fa fa-twitter"></i>twitter</a>
+                            <a href=""><i class="fa fa-google-plus"></i>googleplus</a>
+                            <a href=""><i class="fa fa-pinterest-p"></i>pinterest</a>
+                        </div>
+                        <!-- /SOCIAL ICONS -->
+                        
+                    
+    
+ 
+                </div> <!-- END row -->       
+            </div> <!-- END container -->
         </footer>
+                
     </div>
   </body>
 </html>

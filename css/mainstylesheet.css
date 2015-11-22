@@ -108,6 +108,25 @@ li {
 /* End Body*/
 
 
+/* -----------------------
+4. Footer
+------------------------*/
+#footer {
+    padding-top: 42px;
+    font-size: 12px;
+    line-height: 28px;
+    font-family: 'Gotham A','Gotham B',arial,sans-serif;
+    color: #fff;
+    background: #333;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.footer-column-1 {
+	width: 20%;
+	float: left;
+}
+
 
 /* MEDIA QUERIES */
 @media(max-width: 768px) {
