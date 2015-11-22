@@ -1,4 +1,118 @@
+/* ---------------------------------------  */
+/* 1. Base Styles							*/
+/* 2. Header  	 							*/
+/* 3. Body 									*/
+/* 4. Footer								*/
+/* 5. Media Queries							*/
+/* ---------------------------------------  */
 
-h1 {
-  color: red;
+
+/* -----------------------
+1. Base styles
+------------------------*/
+html {
+	overflow-y:scroll;
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: #050607;
+  background-color: #fff;
+  font: 1.5em "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+  margin: 0 0 .5em;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+h1 { font-size: 2.25em; } 	/* 36px */
+h2 { font-size: 1.75em; } 	/* 28px */
+h3 { font-size: 1.375em; } 	/* 22px */
+h4 { font-size: 1.125em; } 	/* 18px */
+h5 { font-size: 1em; }     	/* 16px */
+h6 { font-size: .875em; }  	/* 14px */
+
+p {
+  margin: 0 0 1.5em;
+  line-height: 1.5;
+}
+
+hr {
+  height: 0;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  border: 0;
+  border-top: 1px solid #ddd;
+}
+
+a:link { color: royalblue; }
+a:visited { color: purple; }
+a:focus { color: black; }
+a:hover { color: green; }
+a:active { color: red; }
+
+ul, ol {
+  margin-left: 1em;
+  padding: 0;
+  line-height: 1.5;
+  font-size: 13px;
+}
+li {
+  margin-top: 10px;
+}
+
+/* -----------------------
+2. Header
+------------------------*/
+
+
+
+/* -----------------------
+3. Body 
+------------------------*/
+.pr-img1 {
+	background: url("https://static.ringly.com/images/community/dive-1bfd896d.jpg") no-repeat center;
+}
+.pr-img2 {
+	background: url("https://static.ringly.com/images/community/dayd-8e29b79f.jpg") no-repeat center;
+}
+.pr-img3 {
+	background: url("https://static.ringly.com/images/community/star-5d69cdb4.jpg") no-repeat center;
+}
+.pr-img4 {
+	background: url("https://static.ringly.com/images/community/wood-1174f69d.jpg") no-repeat center;
+}
+.pr-img5 {
+	background: url("https://static.ringly.com/images/community/dayd-35732bd0.jpg") no-repeat center;
+}
+.pr-img6 {
+	background: url("https://static.ringly.com/images/community/dive-9d047be1.jpg") no-repeat center;
+}
+.user-photos {
+	overflow: hidden;
+}
+
+.user-photo {
+    float: left;
+    height: 0;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    width: 16.66666667%;
+	padding-bottom: 16.66666667%;
+    -webkit-user-select: none;
+    user-select: none;
+}
+/* End Body*/
+
+
+
+/* MEDIA QUERIES */
+@media(max-width: 768px) {
+    .user-photo {
+        width: 50%;
+        padding-bottom: 50%;
+    }
 }
