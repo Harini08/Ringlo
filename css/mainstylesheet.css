@@ -178,15 +178,12 @@ img {
 .btn-default {
   color: #0d0d0d;
   font-weight: bold;
-  border: 1px solid black !important;
+  border: 1px solid #001a00 !important;
   border-radius: 0;
   padding: 10px 60px;
   line-height: 27px;
   font-size: 14px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-right: 50%;
-  margin-left: 50%;
+  margin: 20px auto;
 }
 
 .btn-default:hover {
