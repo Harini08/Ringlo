@@ -9,8 +9,11 @@
     <title>Ringlo - wearable technology</title>
 
     <!-- Bootstrap -->
+
+    <!-- Main CSS file -->
     <link href="dist/css/bootstrap.css" rel="stylesheet">
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+
     <link rel="stylesheet" type="text/css" href="css/mainstylesheet.css"/>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -25,18 +28,40 @@
     <div class="container"> <!-- adds margin to entire page i.e within container -->
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-       <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.js"></script>
 
         <header>
             <h1>Ringlo</h1>
         </header>
 
 
+        <!-- HEADER -->
+        <header id="header">
+            <nav class="navbar st-navbar navbar-fixed-top">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="brand" href="index.html">
+                            <img src="images/ringlo-logo.png" alt="ringlo-logo">
+                        </a>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="st-navbar-collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#header">SHOP</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container -->
+            </nav>
+        </header>
+        <!-- /HEADER -->
+
+
         <div class="ringlo-intro">
             <div class="row">
-              <div class="col-sm-12"><img src="placeholder" alt="main-photo-ringlo"></div>
+              <div class="col-sm-12"><img src="images/emerald-ring.jpg" alt="main-photo-ringlo"></div>
             </div>
         </div>
 
@@ -67,19 +92,19 @@
         <div class="user-photos">
             <div class="user-photo col-sm-2 col-xs-6 pr-img1" data-alt="@evadingen">
             </div>
-            
+
             <div class="user-photo col-sm-2 col-xs-6 pr-img2" data-alt="@_kristinramsey">
             </div>
-            
+
             <div class="user-photo col-sm-2 col-xs-6 pr-img3" data-alt="@kirstyn_tate">
             </div>
-            
+
             <div class="user-photo col-sm-2 col-xs-6 pr-img4" data-alt="@billiecarroll">
             </div>
-            
+
             <div class="user-photo col-sm-2 col-xs-6 pr-img5" data-alt="@jennifer241">
             </div>
-            
+
             <div class="user-photo col-sm-2 col-xs-6 pr-img6" data-alt="@bekathwia">
             </div>
         </div>
@@ -100,7 +125,7 @@
             </div>
         </div>
 
-        
+
         <footer id="footer">
             <div class="container">
                 <div class="row">
@@ -134,14 +159,14 @@
                     </div>
                     <form class="newsletter-signup form-inline" action="/app/newsletter-signup" method="POST">
                         <input type="hidden" name="redir" value="/">
-                        
+
                         <div class="form-group newsletter-input">
                             <label for="id_email_signup" class="sr-only">enter your email</label>
                             <input type="text" class="form-control" id="id_email_signup" name="email" placeholder="Enter your email">
                         </div><button type="submit" class="btn btn-coral newsletter-btn"><span class="rly-icon rly-plane">Submit</span></button>
                     </form>
                     </div>
-            
+
                     <!-- Social icons -->
                     <div class="col-sm-3 footer-social-icons">
                         <span class="title-section">Follow us:</span>
@@ -151,13 +176,13 @@
                             <li><a href="#"><img src="images/social/tw.png"></a></li>
                             <li><a href="#"><img src="images/social/tw.png"></a></li>
                         </ul>
-                    </div>  
-    
- 
-                </div> <!-- END row -->       
+                    </div>
+
+
+                </div> <!-- END row -->
             </div> <!-- END container -->
         </footer>
-                
+
     </div>
 
   </body>

@@ -18,7 +18,7 @@ body {
   padding: 0;
   color: #050607;
   background-color: #fff;
-  font: 1.5em "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+  font: 1.5em "Century Gothic", Helvetica, Arial, Geneva, sans-serif;
 }
 h1,h2,h3,h4,h5,h6 {
   margin: 0 0 .5em;
@@ -63,7 +63,7 @@ li {
   list-style: none;
 }
 img {
-	border:1px solid black;
+	border:1px solid white;
 	width: 100%;
 	height: 100%;
 }
@@ -71,10 +71,61 @@ img {
 2. Header
 ------------------------*/
 
+  #header{}
 
+  #header .navbar {
+    min-height: 50px;
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+
+  .st-navbar{
+    background-color: #fff;
+    border-bottom: 1px solid #f0f0f0;
+  }
+
+  .st-navbar ul{
+    margin-top: 10px;
+  }
+
+  .st-navbar ul li a{
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 0;
+    margin: 14px;
+  }
+
+  .st-navbar ul li a:hover,
+  .st-navbar ul li a:focus {
+    background-color: transparent;
+    color: #000;
+  }
+
+  .st-navbar .navbar-header{
+    margin-top: 10px;
+  }
+
+  .st-navbar .navbar-toggle .icon-bar {
+    background-color: #000;
+  }
+
+  .st-navbar .navbar-toggle{
+    margin-top: 7px;
+    margin-right: 25px;
+    padding: 0;
+    border-radius: 0;
+  }
+
+.navbar .brand {
+    max-height: 40px;
+    max-width: 30%;
+    overflow: visible;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 
 /* -----------------------
-3. Body 
+3. Body
 ------------------------*/
 .pr-img1 {
 	background: url("https://static.ringly.com/images/community/dive-1bfd896d.jpg") no-repeat center;
