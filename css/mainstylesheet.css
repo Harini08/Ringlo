@@ -64,7 +64,12 @@ li {
 }
 img {
 	border:1px solid white;
-	max-height: 150px;
+  size: 100% !important;
+}
+
+#logo-image {
+  border:1px solid white;
+  max-height: 150px;
   max-width: 200px;
   width: 180px;
   height: 60px;
