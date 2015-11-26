@@ -26,7 +26,12 @@
 
   </head>
   <body>
-    <div class="container"> <!-- adds margin to entire page i.e within container -->
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+       <script src="dist/js/bootstrap.js"></script>
+
+        <!-- <script src="js/bootstrap.min.js"></script> -->
 
         <!-- HEADER -->
         <header id="header">
@@ -48,59 +53,23 @@
         </header>
         <!-- /HEADER -->
 
-        <!-- /Slider/Carousel -->
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#mycarousel" data-slide-to="1"></li>
-            <li data-target="#mycarousel" data-slide-to="2"></li>
-          </ol>
+        <!-- RINGLO-MAIN-STATIC-IMAGE-FEATURE -->
 
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner" role="listbox">
-            <div class="item active">
-              <img src="images/ring-photos/fashionable-ring-4.jpg" alt="First slide">
-              <div class="carousel-caption">
-                Jewellery meets technology
-              </div>
-            </div>
-            <div class="item">
-              <img src="images/ring-photos/fashionable-ring-3.jpg" alt="Second slide">
-              <div class="carousel-caption">
-                Ringlo ensures your safety
-              </div>
-            </div>
-            <div class="item">
-              <img src="images/ring-photos/fashionable-ring-5.jpg" alt="Third slide">
-            </div>
-          </div>
-
-          <!-- Controls -->
-          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
+        <div class="main-static-image">
+            <img src="images/ring-photos/fashionable-ring-4.jpg">
         </div>
 
-        <div class="ringlo-slide-features">
-            <div class="row">
-                <div class="col-sm-4">1) Alerts friends & family</div>
-                <div class="col-sm-4">2) Alerts emergency services</div>
-                <div class="col-sm-4">3) Automatic sensor based on your pulse</div>
-            </div>
-        </div>
+        <!-- RINGLO-SLIDE-FEATURES -->
 
-        <div class="ringlo-why-d3-section">
-            <div class="row">
-                <div class="col-sm-6"><img src="placeholder" alt="d3-data-visualisation"></div>
-                <div class="col-sm-6">Description of data and need for ringlo</div>
-            </div>
-        </div>
+        <section class="pic"></section>
+        <section class="text-pic">1)Alerts friends & family</section>
+        <section class="pic"></section>
+        <section class="text-pic">2) Alerts emergency services</section>
+        <section class="pic"></section>
+        <section class="text-pic">3) Automatic sensor based on your pulse</section>
+
+
+        <!-- RINGLO-HOW-IT-WORKS-SECTION -->
 
         <div class="ringlo-how-it-works-section">
             <div class="row">
@@ -111,6 +80,8 @@
                 </div>
             </div>
         </div>
+
+        <!-- RINGLO-PHOTOS-SECTION -->
 
         <div class="user-photos">
             <div class="user-photo col-sm-2 col-xs-6 pr-img1" data-alt="@evadingen">
@@ -218,8 +189,6 @@
                 </div> <!-- END row -->
             </div> <!-- END container -->
         </footer>
-
-    </div>
 
   </body>
 </html>

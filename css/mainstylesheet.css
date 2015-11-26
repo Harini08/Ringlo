@@ -6,7 +6,6 @@
 /* 5. Media Queries							*/
 /* ---------------------------------------  */
 
-
 /* -----------------------
 1. Base styles
 ------------------------*/
@@ -77,13 +76,7 @@ img {
   height: 100%;
 }
 
-#logo-image {
-  border:1px solid white;
-  max-height: 150px;
-  max-width: 200px;
-  width: 180px;
-  height: 60px;
-}
+
 /* -----------------------
 2. Header
 ------------------------*/
@@ -98,8 +91,16 @@ img {
     border-radius: 0;
   }
 
-    .st-navbar{
-    background-color: #fff;
+  #logo-image {
+  border:1px solid white;
+  max-height: 150px;
+  max-width: 200px;
+  width: 180px;
+  height: 60px;
+}
+
+  .st-navbar{
+    background-color: transparent;
     border-bottom: 1px solid #f0f0f0;
   }
 
@@ -149,7 +150,31 @@ img {
 /* -----------------------
 3. Body
 ------------------------*/
-/*how-it-works-section*/
+
+/*Ringlo-slide-features*/
+
+body {
+  margin: 0;
+}
+
+section {
+  min-height: 50vh;
+}
+
+.text-pic {
+  background: url(http://placehold.it/1000x1000/1abc9c) no-repeat center center green fixed;
+  -webkit-background-size: cover;
+}
+
+.pic {
+  transition: background-color 0.9s;
+}
+
+/*Ringlo-why-D3-section
+
+
+
+/*Ringlo-how-it-works-section*/
  #map {
         width: 300px;
         height: 300px;
@@ -215,7 +240,7 @@ img {
 }
 
 .user-quote > span {
- font-size: 4px; 
+ font-size: 4px;
 }
 
 .btn-default {
@@ -247,6 +272,7 @@ img {
     background-repeat: no-repeat;
     box-shadow: none;
     }
+
 
 /* End Body*/
 
@@ -299,7 +325,7 @@ img {
       width: 50%;
       padding-bottom: 50%;
   }
-  
+
 
   .col-sm-3 {
   	width: 23% !important;
