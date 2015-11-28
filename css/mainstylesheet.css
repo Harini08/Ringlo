@@ -128,7 +128,7 @@ img {
   .st-navbar ul li a:hover,
   .st-navbar ul li a:focus {
     background-color: transparent;
-    color: #000;
+    color: #007f80;
   }
 
   .st-navbar .navbar-header{
@@ -182,8 +182,8 @@ section {
 
 
 /*Ringlo-how-it-works-section*/
- #map {
-        width: 300px;
+ #map-container {
+        width: 350px;
         height: 300px;
         background-color: #CCC;
         width: 100%;
@@ -325,6 +325,7 @@ section {
     background-color: #007f80;
     border-color: #004c4d;
 }
+
 
 /* MEDIA QUERIES */
 @media(max-width: 768px) {
