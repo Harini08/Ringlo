@@ -81,10 +81,7 @@ img {
 2. Header
 ------------------------*/
 
-  #header{
-
-  }
-
+  
   #header .navbar {
     min-height: 50px;
     margin-bottom: 0;
@@ -168,6 +165,16 @@ section { height: 70vh; }
 .text { display:flex; align-items:center; justify-content:center; }
 
 
+
+.section-3-text {
+  width: 50%;
+}
+
+.section-3-img  {
+  width: 30%;
+  float: right;
+}
+
 /*Ringlo-how-it-works-section*/
 /*#hw-pictures {
   min-height: 100%;
@@ -176,15 +183,15 @@ section { height: 70vh; }
 .hw-img1 {
   background: url("../images/how-it-works/03.jpg") no-repeat center;
   height: 300px;
-<<<<<<< HEAD
+/*<<<<<<< HEAD
 =======
-<<<<<<< HEAD
+<<<<<<< HEAD*/
   background-size: 100%;
 
-=======
+/*=======
 
 >>>>>>> origin/master
->>>>>>> origin/master
+>>>>>>> origin/master*/
 }
 
 .hw-img2 {
@@ -215,13 +222,7 @@ section { height: 70vh; }
   padding: 0px;
 
 }
-.section-1-text {
-  width: 50%;
-}
-.section-1-img  {
-  width: 30%;
-  float: right;
-}
+
 
 .pr-img1 {
 	background: url("../images/ring-photos/fashionring-06.jpg") no-repeat center;
@@ -355,11 +356,11 @@ section { height: 70vh; }
 /* MEDIA QUERIES */
 @media(max-width: 768px) {
 
-  .section-1-text {
+  .section-3-text {
     width: 61%;
     margin: 0 auto;
   }
-  .section-1-img {
+  .section-3-img {
     width: 36%;
     float: none;
     margin: 0 auto;
