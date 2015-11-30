@@ -160,8 +160,8 @@ img {
 
 /*Ringlo-slide-features*/
 
-body { margin:0; }
-section { height:100vh; }
+body { margin: 0; }
+section { height: 70vh; }
 .img-one { background:url("../images/ring-photos/fashionable-ring-8.jpg") no-repeat center center fixed; background-size:cover; }
 .img-two { background:url("../images/ring-photos/fashionable-ring-5.jpg") no-repeat center center fixed; background-size:cover; }
 .img-three { background:url("../images/ring-photos/fashionable-ring-3.jpg") no-repeat center center fixed; background-size:cover; }
@@ -191,11 +191,11 @@ section { height:100vh; }
   background: url("../images/how-it-works/connect.png") no-repeat center;
   height: 300px;
 }
-.hw-img3 {
+/*.hw-img3 {
   background: url("../images/how-it-works/01.jpg") no-repeat center;
   height: 300px;
   background-size: 100%;
-}
+}*/
 .hw-img4 {
   padding: 0;
 }
@@ -214,6 +214,13 @@ section { height:100vh; }
   overflow: hidden;
   padding: 0px;
 
+}
+.section-1-text {
+  width: 50%;
+}
+.section-1-img  {
+  width: 30%;
+  float: right;
 }
 
 .pr-img1 {
@@ -347,6 +354,16 @@ section { height:100vh; }
 
 /* MEDIA QUERIES */
 @media(max-width: 768px) {
+
+  .section-1-text {
+    width: 61%;
+    margin: 0 auto;
+  }
+  .section-1-img {
+    width: 36%;
+    float: none;
+    margin: 0 auto;
+  }
   .user-photo {
       width: 50%;
       padding-bottom: 50%;
