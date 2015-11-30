@@ -176,15 +176,28 @@ section { height:100vh; }
 .hw-img1 {
   background: url("../images/how-it-works/03.jpg") no-repeat center;
   height: 300px;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  background-size: 100%;
+
+=======
+
+>>>>>>> origin/master
+>>>>>>> origin/master
 }
 
 .hw-img2 {
-  background: url("../images/how-it-works/connect.jpg") no-repeat center;
+  background: url("../images/how-it-works/connect.png") no-repeat center;
   height: 300px;
 }
 .hw-img3 {
   background: url("../images/how-it-works/01.jpg") no-repeat center;
   height: 300px;
+  background-size: 100%;
+}
+.hw-img4 {
+  padding: 0;
 }
  #map-container {
   width: 350px;
@@ -192,12 +205,14 @@ section { height:100vh; }
   background-color: #CCC;
   width: 100%;
   border: 2px solid #fff;
+  padding: 0px;
 }
 
 .ringlo-how-it-works-section {
   border: 1px solid black;
   background: no-repeat center;
   overflow: hidden;
+  padding: 0px;
 
 }
 
@@ -274,7 +289,7 @@ section { height:100vh; }
     font-style: normal;
     letter-spacing: 3px;
     color: #fff;
-    background-image: none;
+    background-color: #5bc0de;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0;
