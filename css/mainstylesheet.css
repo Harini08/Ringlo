@@ -81,7 +81,7 @@ img {
 2. Header
 ------------------------*/
 
-  
+
 #header .navbar {
   min-height: 50px;
   margin-bottom: 0;
@@ -173,38 +173,56 @@ section { height: 80vh; }
 .img-three { background:url("../images/ring-photos/fashionable-ring-3.jpg") no-repeat center center fixed; background-size:cover; }
 .text { display:flex; align-items:center; justify-content:center; }
 
-
-.section-2-text {
-  width: 50%;
-  margin-top: 35%;
+.section-1-text {
+ text-align: left justify-content;
 }
 
 
+.section-1-img  {
+  width: 20%;
+  float: right;
+}
+
+.section-2-text {
+  /*width: 100%;*/
+  margin-top: 35%;
+  text-align: left justify-content;
+}
+
+.section-2-img  {
+  width: 20%;
+  float: right;
+}
+
 .section-3-text {
-  width: 50%;
+  /*width: 100%;*/
+  margin-top: 35%;
+  text-align: left justify-content;
 }
 
 .section-3-img  {
-  width: 30%;
+  width: 20%;
   float: right;
+}
+
+.ring-sensor-img {
+  background: url("../images/Ringlo-slide-features/ring-sensor-img.png") no-repeat;
+  height: 200px;
+  width: 20%;
+  float: right;
+
 }
 
 /*Ringlo-how-it-works-section*/
 
-
-.hw-img1 {
-  background: url("../images/how-it-works/03.jpg") no-repeat center;
-  height: 300px;
-}
-
-.hw-img2 {
+/*.hw-img2 {
   background: url("../images/how-it-works/connect.png") no-repeat center;
   height: 300px;
-}
+}*/
 
 
  #map-container {
-  
+
   position: absolute;
   overflow: hidden;
   transform: translateZ(0px);
@@ -471,7 +489,7 @@ section { height: 80vh; }
 /* MEDIA QUERIES */
 @media(max-width: 768px) {
 
-  .section-3-text {
+/*  .section-3-text {
     width: 61%;
     margin: 0 auto;
   }
@@ -479,12 +497,13 @@ section { height: 80vh; }
     width: 36%;
     float: none;
     margin: 0 auto;
-  }
+  }*/
+
+
   .user-photo {
       width: 50%;
       padding-bottom: 50%;
   }
-
 
   .col-sm-3 {
   	width: 23% !important;
