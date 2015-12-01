@@ -82,13 +82,13 @@ img {
 ------------------------*/
 
   
-  #header .navbar {
-    min-height: 50px;
-    margin-bottom: 0;
-    border-radius: 0;
+#header .navbar {
+  min-height: 50px;
+  margin-bottom: 0;
+  border-radius: 0;
   }
 
-  #logo-image {
+#logo-image {
   /*border:1px solid white;*/
   max-height: 150px;
   max-width: 200px;
@@ -96,60 +96,69 @@ img {
   height: 60px;
 }
 
-  .st-navbar{
 
-    background: rgba(76,76,76,1);
-    background: -moz-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,0.97) 12%, rgba(102,102,102,0.93) 25%, rgba(71,71,71,0.89) 39%, rgba(44,44,44,0.86) 50%, rgba(17,17,17,0.83) 60%, rgba(43,43,43,0.78) 76%, rgba(28,28,28,0.74) 91%, rgba(0,0,0,0.71) 99%, rgba(19,19,19,0.71) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(76,76,76,1)), color-stop(12%, rgba(89,89,89,0.97)), color-stop(25%, rgba(102,102,102,0.93)), color-stop(39%, rgba(71,71,71,0.89)), color-stop(50%, rgba(44,44,44,0.86)), color-stop(60%, rgba(17,17,17,0.83)), color-stop(76%, rgba(43,43,43,0.78)), color-stop(91%, rgba(28,28,28,0.74)), color-stop(99%, rgba(0,0,0,0.71)), color-stop(100%, rgba(19,19,19,0.71)));
-    background: -webkit-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,0.97) 12%, rgba(102,102,102,0.93) 25%, rgba(71,71,71,0.89) 39%, rgba(44,44,44,0.86) 50%, rgba(17,17,17,0.83) 60%, rgba(43,43,43,0.78) 76%, rgba(28,28,28,0.74) 91%, rgba(0,0,0,0.71) 99%, rgba(19,19,19,0.71) 100%);
-    background: -o-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,0.97) 12%, rgba(102,102,102,0.93) 25%, rgba(71,71,71,0.89) 39%, rgba(44,44,44,0.86) 50%, rgba(17,17,17,0.83) 60%, rgba(43,43,43,0.78) 76%, rgba(28,28,28,0.74) 91%, rgba(0,0,0,0.71) 99%, rgba(19,19,19,0.71) 100%);
-    background: -ms-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,0.97) 12%, rgba(102,102,102,0.93) 25%, rgba(71,71,71,0.89) 39%, rgba(44,44,44,0.86) 50%, rgba(17,17,17,0.83) 60%, rgba(43,43,43,0.78) 76%, rgba(28,28,28,0.74) 91%, rgba(0,0,0,0.71) 99%, rgba(19,19,19,0.71) 100%);
-    background: linear-gradient(to right, rgba(76,76,76,1) 0%, rgba(89,89,89,0.97) 12%, rgba(102,102,102,0.93) 25%, rgba(71,71,71,0.89) 39%, rgba(44,44,44,0.86) 50%, rgba(17,17,17,0.83) 60%, rgba(43,43,43,0.78) 76%, rgba(28,28,28,0.74) 91%, rgba(0,0,0,0.71) 99%, rgba(19,19,19,0.71) 100%);
-    border-bottom: 1px solid #f0f0f0;
+.st-navbar{
+  background: rgba(76,76,76,1);
+  background: -moz-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,0.97) 12%, rgba(102,102,102,0.93) 25%, rgba(71,71,71,0.89) 39%, rgba(44,44,44,0.86) 50%, rgba(17,17,17,0.83) 60%, rgba(43,43,43,0.78) 76%, rgba(28,28,28,0.74) 91%, rgba(0,0,0,0.71) 99%, rgba(19,19,19,0.71) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(76,76,76,1)), color-stop(12%, rgba(89,89,89,0.97)), color-stop(25%, rgba(102,102,102,0.93)), color-stop(39%, rgba(71,71,71,0.89)), color-stop(50%, rgba(44,44,44,0.86)), color-stop(60%, rgba(17,17,17,0.83)), color-stop(76%, rgba(43,43,43,0.78)), color-stop(91%, rgba(28,28,28,0.74)), color-stop(99%, rgba(0,0,0,0.71)), color-stop(100%, rgba(19,19,19,0.71)));
+  background: -webkit-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,0.97) 12%, rgba(102,102,102,0.93) 25%, rgba(71,71,71,0.89) 39%, rgba(44,44,44,0.86) 50%, rgba(17,17,17,0.83) 60%, rgba(43,43,43,0.78) 76%, rgba(28,28,28,0.74) 91%, rgba(0,0,0,0.71) 99%, rgba(19,19,19,0.71) 100%);
+  background: -o-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,0.97) 12%, rgba(102,102,102,0.93) 25%, rgba(71,71,71,0.89) 39%, rgba(44,44,44,0.86) 50%, rgba(17,17,17,0.83) 60%, rgba(43,43,43,0.78) 76%, rgba(28,28,28,0.74) 91%, rgba(0,0,0,0.71) 99%, rgba(19,19,19,0.71) 100%);
+  background: -ms-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,0.97) 12%, rgba(102,102,102,0.93) 25%, rgba(71,71,71,0.89) 39%, rgba(44,44,44,0.86) 50%, rgba(17,17,17,0.83) 60%, rgba(43,43,43,0.78) 76%, rgba(28,28,28,0.74) 91%, rgba(0,0,0,0.71) 99%, rgba(19,19,19,0.71) 100%);
+  background: linear-gradient(to right, rgba(76,76,76,1) 0%, rgba(89,89,89,0.97) 12%, rgba(102,102,102,0.93) 25%, rgba(71,71,71,0.89) 39%, rgba(44,44,44,0.86) 50%, rgba(17,17,17,0.83) 60%, rgba(43,43,43,0.78) 76%, rgba(28,28,28,0.74) 91%, rgba(0,0,0,0.71) 99%, rgba(19,19,19,0.71) 100%);
+  border-bottom: 1px solid #f0f0f0;
   }
 
-  .st-navbar ul{
-    margin-top: 10px;
+.st-navbar ul{
+  margin-top: 10px;
   }
 
-  .st-navbar ul li a{
-    font-family: Open Sans Condensed;
-    text-transform: uppercase;
-    padding: 0;
-    margin-right: 50px;
-    color: white;
-    font-size: 16px;
-    text-decoration: underline;
+.st-navbar ul li a{
+  font-family: Open Sans Condensed;
+  text-transform: uppercase;
+  padding: 0;
+  color: white;
+  font-size: 17px;
+  text-decoration: underline;
+  margin-top: 13px;
   }
 
-  .st-navbar ul li a:hover,
-  .st-navbar ul li a:focus {
-    background-color: transparent;
-    color: #007f80;
+#shop-icon {
+  height: 30px;
+  width: 25px;
+  margin-right: 50px;
+  float: right !important;
+  margin-left: 13px;
+
+}
+
+.st-navbar ul li a:hover,
+.st-navbar ul li a:focus {
+  background-color: transparent;
+  color: #007f80;
   }
 
-  .st-navbar .navbar-header{
-    margin-top: 10px;
+.st-navbar .navbar-header{
+  margin-top: 10px;
   }
 
-  .st-navbar .navbar-toggle .icon-bar {
-    background-color: #000;
-  }
+.st-navbar .navbar-toggle .icon-bar {
+  background-color: #000;
+}
 
-  .st-navbar .navbar-toggle{
-    margin-top: 7px;
-    margin-right: 25px;
-    padding: 0;
-    border-radius: 0;
-  }
+.st-navbar .navbar-toggle{
+  margin-top: 7px;
+  margin-right: 25px;
+  padding: 0;
+  border-radius: 0;
+}
 
 .navbar .brand {
-    max-height: 40px;
-    max-width: 30%;
-    overflow: visible;
-    padding-top: 0;
-    padding-bottom: 0;
-  }
+  max-height: 40px;
+  max-width: 30%;
+  overflow: visible;
+  padding-top: 0;
+  padding-bottom: 0;
+}
 
 /* -----------------------
 3. Body
@@ -158,12 +167,17 @@ img {
 /*Ringlo-slide-features*/
 
 body { margin: 0; }
-section { height: 70vh; }
-.img-one { background:url("../images/ring-photos/fashionable-ring-8.jpg") no-repeat center center fixed; background-size:cover; }
+section { height: 80vh; }
+.img-one { background:url("https://s-media-cache-ak0.pinimg.com/736x/3d/93/42/3d934296c77bfb288a29dd12085ec0d3.jpg") no-repeat center center fixed; background-size:cover; }
 .img-two { background:url("../images/ring-photos/fashionable-ring-5.jpg") no-repeat center center fixed; background-size:cover; }
 .img-three { background:url("../images/ring-photos/fashionable-ring-3.jpg") no-repeat center center fixed; background-size:cover; }
 .text { display:flex; align-items:center; justify-content:center; }
 
+
+.section-2-text {
+  width: 50%;
+  margin-top: 35%;
+}
 
 
 .section-3-text {
@@ -176,47 +190,33 @@ section { height: 70vh; }
 }
 
 /*Ringlo-how-it-works-section*/
-/*#hw-pictures {
-  min-height: 100%;
-}*/
+
 
 .hw-img1 {
   background: url("../images/how-it-works/03.jpg") no-repeat center;
   height: 300px;
-/*<<<<<<< HEAD
-=======
-<<<<<<< HEAD*/
-  background-size: 100%;
-
-/*=======
-
->>>>>>> origin/master
->>>>>>> origin/master*/
 }
 
 .hw-img2 {
   background: url("../images/how-it-works/connect.png") no-repeat center;
   height: 300px;
 }
-/*.hw-img3 {
-  background: url("../images/how-it-works/01.jpg") no-repeat center;
-  height: 300px;
-  background-size: 100%;
-}*/
-.hw-img4 {
-  padding: 0;
-}
+
+
  #map-container {
-  width: 350px;
-  height: 300px;
-  background-color: #CCC;
-  width: 100%;
-  border: 2px solid #fff;
-  padding: 0px;
+  
+  position: absolute;
+  overflow: hidden;
+  transform: translateZ(0px);
+  background-color: rgb(229, 227, 223);
+  top: 127px;
+  left: 47px;
+  width: 249px;
+  height: 340px;
 }
 
 .ringlo-how-it-works-section {
-  border: 1px solid black;
+  border-bottom: 1px solid black;
   background: no-repeat center;
   overflow: hidden;
   padding: 0px;
@@ -225,22 +225,22 @@ section { height: 70vh; }
 
 
 .pr-img1 {
-	background: url("../images/ring-photos/fashionring-06.jpg") no-repeat center;
+	background: url("../images/ring-photos/banner-2.jpg") no-repeat center;
 }
 .pr-img2 {
-	background: url("../images/ring-photos/fashionring-03.jpg") no-repeat center;
+	background: url("../images/ring-photos/banner-3.jpg") no-repeat center;
 }
 .pr-img3 {
-	background: url("../images/ring-photos/fashionring-02.jpg") no-repeat center;
+	background: url("../images/ring-photos/banner-4.jpg") no-repeat center;
 }
 .pr-img4 {
-	background: url("../images/ring-photos/fashionring-07.jpg") no-repeat center;
+	background: url("../images/ring-photos/banner-5.jpg") no-repeat center;
 }
 .pr-img5 {
-	background: url("../images/ring-photos/fashionring-01.jpg") no-repeat center;
+	background: url("../images/ring-photos/banner-6.jpg") no-repeat center;
 }
 .pr-img6 {
-	background: url("../images/ring-photos/fashionring-04.jpg") no-repeat center;
+	background: url("../images/ring-photos/banner-9.jpg") no-repeat center;
 }
 .user-photos {
 	overflow: hidden;
@@ -248,16 +248,16 @@ section { height: 70vh; }
 }
 
 .user-photo {
-    float: left;
-    height: 0;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+  float: left;
+  height: 0;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 
-    width: 16.66666667%;
-	  padding-bottom: 16.66666667%;
-    -webkit-user-select: none;
-    user-select: none;
+  width: 16.66666667%;
+  padding-bottom: 16.66666667%;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 .user-quotes {
@@ -292,19 +292,19 @@ section { height: 70vh; }
 }
 
 .btn-default:hover {
-    text-transform: uppercase;
-    font-weight: 900;
-    font-style: normal;
-    letter-spacing: 3px;
-    color: #fff;
-    background-color: #5bc0de;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
-    background-position: center!important;
-    background-repeat: no-repeat;
-    box-shadow: none;
-    }
+  text-transform: uppercase;
+  font-weight: 900;
+  font-style: normal;
+  letter-spacing: 3px;
+  color: #fff;
+  background-color: #5bc0de;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  background-position: center!important;
+  background-repeat: no-repeat;
+  box-shadow: none;
+}
 
 
 /* End Body*/
