@@ -203,10 +203,11 @@ section { min-height: 80vh; }
 }
 
 .section-1-text {
- text-align: left justify-content center;
- font-size: 17px;
+  text-align: left justify-content center;
+  font-size: 17px;
+  top: 26%;
+  left: 25%;
 }
-
 .section-1-img  {
   width: 23%;
   float: right;
@@ -218,7 +219,6 @@ section { min-height: 80vh; }
   margin-top: 35%;
   text-align: left justify-content;
 }
-
 .section-2-img  {
   width: 23%;
   float: right;
@@ -243,7 +243,6 @@ section { min-height: 80vh; }
   margin-top: 35%;
   text-align: left justify-content;
 }
-
 .section-3-img  {
   float: right;
   overflow: hidden;
@@ -251,7 +250,6 @@ section { min-height: 80vh; }
   margin-top: 180px;
   margin-right: 120px;
 }
-
 .ring-sensor-img {
   width: 40%;
   float: right;
