@@ -416,7 +416,6 @@ section { min-height: 80vh; }
   height: 340px;
   position: fixed;
   left: 5px;
-  /*top: 200px;*/
   overflow: hidden;
   margin-left: -75px;
 }
@@ -450,7 +449,7 @@ section { min-height: 80vh; }
   background-size: 70%;
 }
 .social-element.email {
-  background: #AAAAAA url("../images/social/email.png") no-repeat center;
+  background: #0E6EE0 url("../images/social/email.png") no-repeat center;
   background-size: 70%;
 }
 .social-element.dots {
@@ -488,12 +487,9 @@ section { min-height: 80vh; }
 .footer-social-icons {
 	display: block;
 }
-
-
 .title-section {
 	border-bottom: 1px solid white;
 }
-
 .btn-info {
   color: #fff;
   background-color: #007f80;
@@ -519,8 +515,8 @@ section { min-height: 80vh; }
 
 
   .user-photo {
-      width: 50%;
-      padding-bottom: 50%;
+    width: 50%;
+    padding-bottom: 50%;
   }
 
   .col-sm-3 {
@@ -539,6 +535,7 @@ section { min-height: 80vh; }
   .user-quote {
     font-size: 8px;
   }
+
   blockquote {
     font-size: 1em;
     line-height: 18px !important;
@@ -546,7 +543,7 @@ section { min-height: 80vh; }
 }
 @media(min-width: 768px) {
 
-  .col-sm-3 {
+  /*.col-sm-3 {
   	width: 23%;
   	padding: 0;
   	margin-right: 2%;
@@ -554,5 +551,5 @@ section { min-height: 80vh; }
 	}
 	.col-sm-3:last-child {
 		margin-right: 0;
-	}
+	}*/
 }
