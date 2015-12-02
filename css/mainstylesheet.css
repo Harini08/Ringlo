@@ -218,6 +218,8 @@ section { min-height: 80vh; }
   /*width: 100%;*/
   margin-top: 35%;
   text-align: left justify-content;
+  top: 26%;
+  left: 25%;
 }
 .section-2-img  {
   width: 23%;
@@ -242,6 +244,12 @@ section { min-height: 80vh; }
   /*width: 100%;*/
   margin-top: 35%;
   text-align: left justify-content;
+  top: 26%;
+  left: 25%;
+}
+
+.ringlo-how-it-works-text {
+  left: 25%;
 }
 .section-3-img  {
   float: right;
