@@ -168,10 +168,16 @@ img {
 
 body { margin: 0; }
 section { height: 80vh; }
-.img-one { background:url("https://s-media-cache-ak0.pinimg.com/736x/3d/93/42/3d934296c77bfb288a29dd12085ec0d3.jpg") no-repeat center center fixed; background-size:cover; }
-.img-two { background:url("../images/ring-photos/fashionable-ring-5.jpg") no-repeat center center fixed; background-size:cover; }
+.img-one { background:url("../images/ring-photos/fashionable-ring-8.jpg") no-repeat center center fixed; background-size:cover; }
+.img-two { background:url("../images/ring-photos/fashionable-ring-4.jpg") no-repeat center center fixed; background-size:cover; }
 .img-three { background:url("../images/ring-photos/fashionable-ring-3.jpg") no-repeat center center fixed; background-size:cover; }
 .text { display:flex; align-items:center; justify-content:center; }
+
+.img-one h1 {
+  position: absolute;
+  top: 26%;
+  left: 25%;
+}
 
 .section-1-text {
  text-align: left justify-content center;
