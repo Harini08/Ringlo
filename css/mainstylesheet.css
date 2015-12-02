@@ -199,14 +199,14 @@ section { min-height: 80vh; }
 .img-one h1 {
   position: absolute;
   top: 26%;
-  left: 25%;
+  left: 18%;
 }
 
 .section-1-text {
   text-align: left justify-content center;
   font-size: 17px;
   top: 26%;
-  left: 25%;
+  left: 15%;
 }
 .section-1-img  {
   width: 23%;
@@ -219,7 +219,7 @@ section { min-height: 80vh; }
   margin-top: 35%;
   text-align: left justify-content;
   top: 26%;
-  left: 25%;
+  left: 15%;
 }
 .section-2-img  {
   width: 23%;
@@ -245,11 +245,11 @@ section { min-height: 80vh; }
   margin-top: 35%;
   text-align: left justify-content;
   top: 26%;
-  left: 25%;
+  left: 15%;
 }
 
 .ringlo-how-it-works-text {
-  left: 25%;
+  left: 15%;
 }
 .section-3-img  {
   float: right;
