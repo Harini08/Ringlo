@@ -26,7 +26,16 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 { font-size: 2.25em; } 	/* 36px */
-h2 { font-size: 1.75em; } 	/* 28px */
+h2 { 
+font-family: "Century Gothic", Helvetica, Arial, Geneva, sans-serif;
+font-size: 1.75em; 
+text-align: center;
+padding: 10px 20px;
+margin: 0 0 20px;
+border-left: 0;
+line-height: 26px;
+  
+}} 	/* 28px */
 h3 { font-size: 1.375em; } 	/* 22px */
 h4 { font-size: 1.125em; } 	/* 18px */
 h5 { font-size: 1em; }     	/* 16px */
@@ -249,23 +258,6 @@ section { min-height: 80vh; }
   margin-top: 20px;
 
 }
-
-/*Ringlo-how-it-works-section*/
-
-/*.hw-img2 {
-  background: url("../images/how-it-works/connect.png") no-repeat center;
-  height: 300px;
-}*/
-
-
-
-/*.ringlo-how-it-works-section {
-  border-bottom: 1px solid black;
-  background: no-repeat center;
-  overflow: hidden;
-  padding: 0px;
-
-}*/
 
 
 .pr-img1 {
