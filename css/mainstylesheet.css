@@ -239,13 +239,13 @@ section { height: 80vh; }
 
 
 
-.ringlo-how-it-works-section {
+/*.ringlo-how-it-works-section {
   border-bottom: 1px solid black;
   background: no-repeat center;
   overflow: hidden;
   padding: 0px;
 
-}
+}*/
 
 
 .pr-img1 {
@@ -289,8 +289,8 @@ section { height: 80vh; }
   overflow: hidden;
 }
 .user-quote {
-  font-family: Harriet Text Light, georgia, serif;
-  font-size: 10px;
+  font-family: "Century Gothic", Helvetica, Arial, Geneva, sans-serif;
+  font-size: 8px;
   margin-top: 20px;
   background-color: #ccfff5;
   height: 120px;
@@ -444,7 +444,7 @@ section { height: 80vh; }
   background-size: 70%;
 }
 .social-element.dots {
-  background: #0E5BB7 url("../images/social/dots.png") no-repeat center;
+  background: #0E5BB7 url("../images/social/close.png") no-repeat center;
   background-size: 70%;
 }
 
@@ -453,15 +453,15 @@ section { height: 80vh; }
 4. Footer
 ------------------------*/
 #footer {
-    padding-top: 42px;
-    font-size: 12px;
-    line-height: 28px;
-    font-family: 'Gotham A','Gotham B',arial,sans-serif;
-    color: #e5e5e5;
-    background: rgb(72,72,72);
-    text-transform: uppercase;
-    text-align: center;
-    list-style-type: none;
+  padding-top: 42px;
+  font-size: 12px;
+  line-height: 28px;
+  font-family: 'Gotham A','Gotham B',arial,sans-serif;
+  color: #e5e5e5;
+  background: rgb(72,72,72);
+  text-transform: uppercase;
+  text-align: center;
+  list-style-type: none;
 }
 #footer li  a {
 	color: #fff;
@@ -471,25 +471,27 @@ section { height: 80vh; }
 	height: 30px !important;
 }
 #footer span {
-    width: 60%;
-    display: inline-block;
-    text-align: center;
+  width: 60%;
+  display: inline-block;
+  text-align: center;
 }
 .footer-social-icons {
 	display: block;
 }
+
+
 .title-section {
 	border-bottom: 1px solid white;
 }
-.footer-column-1 {
-
-}
 
 .btn-info {
-    color: #fff;
-    background-color: #007f80;
-    border-color: #004c4d;
+  color: #fff;
+  background-color: #007f80;
+  border-color: #004c4d;
 }
+
+
+
 
 
 /* MEDIA QUERIES */
@@ -534,11 +536,11 @@ section { height: 80vh; }
 }
 @media(min-width: 768px) {
 
-    .col-sm-3 {
-    	width: 23%;
-    	padding: 0;
-    	margin-right: 2%;
-    	overflow: hidden;
+  .col-sm-3 {
+  	width: 23%;
+  	padding: 0;
+  	margin-right: 2%;
+  	overflow: hidden;
 	}
 	.col-sm-3:last-child {
 		margin-right: 0;
