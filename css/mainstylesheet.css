@@ -167,7 +167,7 @@ img {
 /*Ringlo-slide-features*/
 
 body { margin: 0; }
-section { height: 80vh; }
+section { min-height: 80vh; }
 .img-one { background:url("../images/ring-photos/fashionable-ring-8.jpg") no-repeat center center fixed; background-size:cover; }
 .img-two { background:url("../images/ring-photos/fashionable-ring-4.jpg") no-repeat center center fixed; background-size:cover; }
 .img-three { background:url("../images/ring-photos/fashionable-ring-3.jpg") no-repeat center center fixed; background-size:cover; }
