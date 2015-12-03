@@ -211,7 +211,7 @@ section { min-height: 80vh; }
 
 .section-1-text {
   text-align: left justify-content center;
-  font-size: 17px;
+  font-size: 22px;
   left: 15%;
 }
 .section-1-img  {
@@ -223,7 +223,8 @@ section { min-height: 80vh; }
 .section-2-text {
   /*width: 100%;*/
   margin-top: 35%;
-  text-align: left justify-content;
+  text-align: left justify-content center;
+  font-size: 22px;
   left: 15%;
 }
 .section-2-img  {
@@ -247,13 +248,11 @@ section { min-height: 80vh; }
 .section-3-text {
   /*width: 100%;*/
   margin-top: 35%;
-  text-align: left justify-content;
+  text-align: left justify-content center;
+  font-size: 22px;
   left: 15%;
 }
 
-.ringlo-how-it-works-text {
-  left: 15%;
-}
 .section-3-img  {
   float: right;
   overflow: hidden;
@@ -261,6 +260,12 @@ section { min-height: 80vh; }
   margin-top: 180px;
   margin-right: 120px;
 }
+
+.ringlo-how-it-works-text {
+  left: 15%;
+  font-size: 18px;
+}
+
 .ring-sensor-img {
   width: 40%;
   float: right;
@@ -555,14 +560,16 @@ section { min-height: 80vh; }
 /* iPhone 6 Portrait */
 @media(max-width: 375px) {
 .section-1-img, .section-2-img, .section-3-img {
-  width: 50%;
+  width: 30%;
   margin-right: 90px;
   margin-top: 0;
 }
+
 .ring-sensor-img {
   display: none;
 }
-.section-2-text, .section-3-text {
+
+.section-1-text, .section-2-text, .section-3-text {
   left: 0;
   margin: 2%;
 }
@@ -580,11 +587,11 @@ section { min-height: 80vh; }
 }
 .img-one h1 {
   position: absolute;
-  top: 43%;
-  left: 6%;
-  font-size: 25px;
-  line-height: 29px;
-  letter-spacing: 1.5px;
+  top: 33%;
+  left: 3%;
+  font-size: 15px;
+  line-height: 16px;
+  letter-spacing: 1px;
 }
 blockquote {
   font-size: 2em;
@@ -636,9 +643,7 @@ blockquote {
   margin-right: 80px;
   margin-top: 10px;
 }
-.ring-sensor-img {
-  display: none;
-}
+
 .section-2-text, .section-3-text {
   left: 8%;
   margin: 2%;
@@ -649,7 +654,6 @@ blockquote {
   margin-top: 3%;
 }
 
-
 .img-one h1 {
   position: absolute;
   top: 43%;
@@ -658,6 +662,7 @@ blockquote {
   line-height: 40px;
   letter-spacing: 1.5px;
 }
+
 blockquote {
   font-size: 1.25em;
   line-height: 20px !important;
