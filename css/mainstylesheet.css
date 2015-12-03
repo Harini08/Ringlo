@@ -543,55 +543,113 @@ section { min-height: 80vh; }
 
 /* iPhone 6 Portrait */
 @media(max-width: 375px) {
-  .section-1-img, .section-2-img, .section-3-img {
-    width: 50%;
-    margin-right: 90px;
-    margin-top: 0;
-  }
-  .ring-sensor-img {
-    display: none;
-  }
-  .section-2-text, .section-3-text {
-    left: 0;
-    margin: 2%;
-  }
-  .social-wrapper {
-    display: none;
-  }
-  .img-one, .img-two, .img-three {
-    background-size: 100%;
-    position: relative;
-    left: 0px;
-  }
-  .ringlo-how-it-works-text {
-    left: 9%;
-    margin-top: 5%;
-  }
-  .img-one h1 {
-    position: absolute;
-    top: 43%;
-    left: 6%;
-    font-size: 25px;
-    line-height: 29px;
-    letter-spacing: 1.5px;
-  }
-  blockquote {
-    font-size: 2em;
+.section-1-img, .section-2-img, .section-3-img {
+  width: 50%;
+  margin-right: 90px;
+  margin-top: 0;
+}
+.ring-sensor-img {
+  display: none;
+}
+.section-2-text, .section-3-text {
+  left: 0;
+  margin: 2%;
+}
+.social-wrapper {
+  display: none;
+}
+.img-one, .img-two, .img-three {
+  background-size: 100%;
+  position: relative;
+  left: 0px;
+}
+.ringlo-how-it-works-text {
+  left: 9%;
+  margin-top: 5%;
+}
+.img-one h1 {
+  position: absolute;
+  top: 43%;
+  left: 6%;
+  font-size: 25px;
+  line-height: 29px;
+  letter-spacing: 1.5px;
+}
+blockquote {
+  font-size: 2em;
   }
 }
 
-/* iPhone 6 Landskape */
+/* iPhone 6 Landscape */
 @media(max-width: 375px) {
-/*code in here*/
+
+.section-1-img, .section-2-img, .section-3-img {
+  width: 50%;
+  margin-right: 90px;
+  margin-top: 0;
+}
+.ring-sensor-img {
+  display: none;
+}
+.section-2-text, .section-3-text {
+  left: 0;
+  margin: 2%;
+}
+
+.social-wrapper {
+    display: none;
+  }
+.img-one h1 {
+  position: absolute;
+  top: 43%;
+  left: 6%;
+  font-size: 25px;
+  line-height: 29px;
+  letter-spacing: 1.5px;
+  }
+blockquote {
+  font-size: 2em;
+  line-height: 14px !important;
+}
 }  
 
 /* iPad Portrait */
 @media(min-width:; 376px and max-width: 768px) {
-  .container {
-    border: 3px solid green;
+.container {
+  border: 3px solid green;
   }
 } 
+.section-1-img, .section-2-img, .section-3-img {
+  width: 35%;
+  margin-right: 85px;
+  margin-top: 0;
+}
+.ring-sensor-img {
+  display: none;
+}
+.section-2-text, .section-3-text {
+  left: 10%;
+  margin: 2%;
+}
 
+.ringlo-how-it-works-text {
+  left: 10%;
+  margin-top: 5%;
+}
+
+.img-one h1 {
+  position: absolute;
+  top: 43%;
+  left: 10%;
+  font-size: 55px;
+  line-height: 45px;
+  letter-spacing: 1.5px;
+}
+blockquote {
+  font-size: 2em;
+  line-height: 16px !important;
+}
+}
 
 
 
