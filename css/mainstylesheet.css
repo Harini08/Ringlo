@@ -227,15 +227,14 @@ section { min-height: 80vh; }
 }
 
 #map-container {
-
   position: absolute;
   overflow: hidden;
   transform: translateZ(0px);
   background-color: rgb(229, 227, 223);
-  top: 60px;
-  left: 30px;
-  width: 117px;
-  height: 156px;
+  top: 21%;
+  left: 25%;
+  width: 50%;
+  height: 55%;
 }
 
 .section-3-text {
@@ -555,4 +554,14 @@ section { min-height: 80vh; }
 	.col-sm-3:last-child {
 		margin-right: 0;
 	}*/
+  #map-container {
+  position: absolute;
+  overflow: hidden;
+  transform: translateZ(0px);
+  background-color: rgb(229, 227, 223);
+  top: 21%;
+  left: 11%;
+  width: 77%;
+  height: 55%;
+}
 }
