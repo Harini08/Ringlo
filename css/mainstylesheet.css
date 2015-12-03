@@ -26,7 +26,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 { font-size: 2.25em; } 	/* 36px */
-h2 { 
+h2 {
 font-family: "Century Gothic", Helvetica, Arial, Geneva, sans-serif;
 font-size: 1.75em; /* 28px */
 text-align: center;
@@ -34,8 +34,8 @@ padding: 10px 20px;
 margin: 0 0 20px;
 border-left: 0;
 line-height: 26px;
-  
-} 	
+
+}
 h3 { font-size: 1.375em; } 	/* 22px */
 h4 { font-size: 1.125em; } 	/* 18px */
 h5 { font-size: 1em; }     	/* 16px */
@@ -80,7 +80,7 @@ blockquote {
   color: #6B6262
 }
 img {
-	
+
   width: 100%;
   height: 100%;
 }
@@ -199,7 +199,12 @@ section { min-height: 80vh; }
 .img-one h1 {
   position: absolute;
   top: 26%;
-  left: 18%;
+  left: 10%;
+  font-size: 52px;
+  font-family: Century Gothic;
+  font-color: #808080;
+  line-height: 40px;
+  letter-spacing: 1.5px;
 }
 
 .section-1-text {
@@ -612,14 +617,14 @@ blockquote {
   font-size: 2em;
   line-height: 20px !important;
 }
-}  
+}
 
 /* iPad Portrait */
 @media(min-width:; 376px and max-width: 768px) {
 .container {
   border: 3px solid green;
   }
-} 
+}
 .section-1-img, .section-2-img, .section-3-img {
   width: 25%;
   margin-right: 80px;
